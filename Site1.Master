@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="event_management.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+     <link href="datatable/css/jquery.dataTables.min.css" rel="stylesheet" />
+     <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link href="css/customstylesheet.css" rel="stylesheet" />
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="#"> <img src="imgs/onlinelogomaker-083121-1500-7281.svg" height="80px"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+       <%-- <a href="imgs/onlinelogomaker-083121-1424-7277.svg">imgs/onlinelogomaker-083121-1424-7277.svg</a>--%>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+       <!-- <ul class="navbar-nav">-->
+           <li class="nav-item">
+           <asp:Linkbutton class="nav-link active" id="linkbutton2" runat="server" Visible="True" OnClick="linkbutton2_Click">Home</asp:Linkbutton>
+        </li>
+            <li class="nav-item active">
+          <asp:Linkbutton class="nav-link active" id="linkbutton3" runat="server" Visible="True">Gallery</asp:Linkbutton>
+        </li>
+          <li class="nav-item active">
+           <asp:Linkbutton class="nav-link active" id="linkbutton7" runat="server" Visible="True">Contact</asp:Linkbutton>
+        </li>
+        <li class="nav-item active">
+           <asp:Linkbutton class="nav-link active" id="linkbutton8" runat="server" Visible="True">About</asp:Linkbutton>
+        </li>
+         
+        <li class="nav-item active">
+          <asp:Linkbutton class="nav-link active" id="linkbutton9" runat="server" Visible="True" OnClick="linkbutton9_Click">Login</asp:Linkbutton>
+        </li>
+
+             </ul>
+        <ul class="navbar-nav">
+           <li class="nav-item active">
+          <asp:Linkbutton class="nav-link active" id="linkbutton5" runat="server" Visible="False">Event</asp:Linkbutton>
+        </li>
+            <li class="nav-item active">
+          <asp:Linkbutton class="nav-link active" id="linkbutton10" runat="server" Visible="False">Services</asp:Linkbutton>
+        </li>
+          <li class="nav-item active ">
+         <asp:Linkbutton class="nav-link active" id="linkbutton6" runat="server" Visible="False">Packages</asp:Linkbutton>
+        </li>
+       
+           <li class="nav-item active">
+         <asp:Linkbutton class="nav-link active" id="linkbutton4" runat="server" OnClick="linkbutton4_Click" Visible="False">Logout</asp:Linkbutton>
+            </li>
+
+              <li class="nav-item active">
+         <asp:Linkbutton class="nav-link active" id="link" runat="server" Visible="True" OnClick="link_Click">Admin login</asp:Linkbutton>
+            </li>
+           
+           
+                 </ul>
+         <%-- </ul>--%>
+     </div>
+  </div>
+</nav>
+                
+            
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Main Content Placeholder -->
+
+           <br />
+
+              </form>
+    
+</body>
+</html>

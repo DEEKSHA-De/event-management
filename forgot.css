@@ -1,0 +1,54 @@
+﻿section {
+    border: 10px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border :10px ;
+    max-width :900px;
+    width :100%;
+    margin :auto;
+    height :455px;
+    display :flex ;
+   box-sizing :border-box;
+}
+.row{
+    background :#ffffff;
+   border-radius :30px;
+    box-shadow :12px 12px 22px;
+}
+.forgot img{
+    border-top-left-radius :30px;
+    border-bottom-left-radius:30px;
+}
+.h1 {
+    font-size:4rem;
+    font-family: Sylfaen;
+}
+.lblemail{
+    font-weight: bold;
+    color: #ff0000;
+    margin-right: 50px;
+    font-size: 1rem;
+}
+.lblnew,.lblcnfrm {
+    font-weight: bold;
+    color: #ff0000;
+    margin-right: 50px;
+    font-size: 1rem;
+}
+
+.btnsubmit {
+    
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+.btnsubmit:hover {
+    background-color: rgb(255,217,9);
+}

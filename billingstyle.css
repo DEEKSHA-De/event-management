@@ -1,0 +1,26 @@
+﻿
+body {
+    
+}
+.lblorderdate {
+    margin-left:650px;
+}
+
+.lblid,.label12, .label1, .label2, .label3, .label8, .label10, .label11, .label16, .label13, .label14, .label7, .lblflower, .label5, .label15, .label6 
+{
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+.txtcname, .txtoid, .txtvid, .txtfrm, .txtvc, .txtplace, .txtevent, .txtguest, .txtlighttype, .txtlightcost, .txtflowertype, .txtflower, .txtseattype, .txtseat {
+    margin-left: 250px;
+    /*width: 30px;*/
+   /* margin-bottom: 10px;
+    margin-top: 5px;*/
+}
+/*.lblflname, .lbladdr, .lblmbl, .lblemail, .lblpass, .lblretype {
+    
+}*/
+
